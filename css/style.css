@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'my font';
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    background-color: rgb(84, 84, 248);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(84, 84, 248);
+    border: 3px solid white;
+}
+
+.my-section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.but {
+    margin: 100px auto;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(85, 0, 255);
+    border-radius: 10px;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.but:hover {
+    scale: 1.04;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.all-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.box-one {
+    background-color: rgb(62, 143, 255);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+    margin: 50px;
+}
+
+.box-one:hover {
+    scale: 1.04;
+    box-shadow: black 2px 10px 15px 2px;
+}
+
+.box-two {
+    background-color: rgb(62, 143, 255);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+    margin: 50px;
+}
+
+.box-two:hover {
+    scale: 1.04;
+    box-shadow: black 2px 10px 15px 2px;
+}
+
+.box-tree {
+    background-color: rgb(62, 143, 255);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+    margin: 50px;
+}
+
+.box-tree:hover {
+    scale: 1.04;
+    box-shadow: black 2px 10px 15px 2px;
+}
+
+.box-four {
+    background-color: rgb(62, 143, 255);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+    margin: 50px;
+}
+
+.box-four:hover {
+    scale: 1.04;
+    box-shadow: black 2px 10px 15px 2px;
+}
+
+@media (max-width: 1100px) {
+    .all-box {
+        grid-template-columns: 1fr;
+    }    
+}
+
+@font-face{
+    font-family: 'my font';
+    src: url('../statik/font/arial.ttf');
+}
