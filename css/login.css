@@ -2,6 +2,12 @@
     width: fit-content;
     height: fit-content;
     margin: 100px auto;
+    border: 2px solid black;
+    padding: 100px 20px 100px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+    transition: 0.4s;
 }
 
 body {
@@ -17,7 +23,7 @@ body {
 }
 
 .but {
-    margin: 0px 0px 0px 90px;
+    margin: 20px 90px 0px 90px;
     padding: 10px 30px 10px 30px;
     background-color: white;
     color: black;
@@ -26,12 +32,16 @@ body {
     transition: 0.4s;
 }
 
-.but:hover {
-    scale: 1.04;
-    box-shadow: 2px 10px 15px 2px black;
-}
-
 @font-face{
     font-family: 'my font';
     src: url('../statik/font/arial.ttf');
+}
+
+.login:hover {
+    scale: 1.04;
+}
+
+.but:hover {
+    color: white;
+    background-color: black;
 }
